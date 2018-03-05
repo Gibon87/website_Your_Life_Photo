@@ -1,0 +1,398 @@
+.nav-jumbo-social {
+  background: #fff url(../images/jumbotron.png) 0/cover no-repeat;
+  color: white; }
+  .nav-jumbo-social .container {
+    height: 100vh; }
+    .nav-jumbo-social .container .navbar-inverse {
+      background: none;
+      border: none; }
+    .nav-jumbo-social .container .navbar-header button span {
+      height: 5px;
+      width: 30px; }
+    .nav-jumbo-social .container .navbar-nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      @media screen and (max-width: 767px) {
+        .nav-jumbo-social .container .navbar-nav {
+          display: block;
+          text-align: center; } }
+      .nav-jumbo-social .container .navbar-nav li:not(:nth-child(3)) {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 700; }
+      .nav-jumbo-social .container .navbar-nav a {
+        color: #fff;
+        letter-spacing: 4px;
+        transition: .3s; }
+        @media screen and (max-width: 767px) {
+          .nav-jumbo-social .container .navbar-nav a {
+            font-size: 20px; } }
+        .nav-jumbo-social .container .navbar-nav a:hover {
+          text-shadow: 0 3px 10px #16a085;
+          transform: scale(1.05); }
+        .nav-jumbo-social .container .navbar-nav a img {
+          transition: .3s; }
+          .nav-jumbo-social .container .navbar-nav a img:hover {
+            -webkit-filter: drop-shadow(5px 5px 15px #16a085);
+            filter: drop-shadow(5px 5px 15px #16a085);
+            -webkit-filter: drop-shadow(5px 5px 15px #16a085);
+            filter: drop-shadow(5px 5px 15px #16a085); }
+    .nav-jumbo-social .container .jumbotron {
+      background: none;
+      margin-top: 15vh; }
+      @media screen and (max-width: 767px) {
+        .nav-jumbo-social .container .jumbotron {
+          margin-top: 0;
+          padding-top: 0; } }
+      .nav-jumbo-social .container .jumbotron h1 {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 4px; }
+      .nav-jumbo-social .container .jumbotron p {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin: 20px; }
+        @media screen and (max-width: 767px) {
+          .nav-jumbo-social .container .jumbotron p {
+            font-size: 20px; } }
+      .nav-jumbo-social .container .jumbotron .btn {
+        background-color: #16a085;
+        border-radius: 3px;
+        font-size: 14px;
+        width: 170px;
+        height: 50px;
+        line-height: 28px;
+        transition: .3s;
+        margin-top: 25px; }
+        .nav-jumbo-social .container .jumbotron .btn:hover {
+          box-shadow: 0 1px 10px #16a085;
+          background-color: #17b196;
+          transform: scale(1.02); }
+    .nav-jumbo-social .container .social-media {
+      width: 100%;
+      position: absolute;
+      bottom: 50px;
+      left: 0; }
+      @media screen and (max-width: 767px) {
+        .nav-jumbo-social .container .social-media {
+          bottom: 20px; } }
+      .nav-jumbo-social .container .social-media a {
+        color: #fff;
+        padding: 10px;
+        display: inline-block;
+        font-size: 25px;
+        transition: .3s; }
+        @media screen and (max-width: 767px) {
+          .nav-jumbo-social .container .social-media a {
+            font-size: 35px;
+            padding: 15px; } }
+        .nav-jumbo-social .container .social-media a:hover {
+          color: #c9c9c9;
+          text-shadow: 0 3px 10px #16a085;
+          transform: scale(1.15); }
+
+.hand {
+  margin-top: 100px;
+  background-color: #f5f6f7;
+  background-image: url("../images/hand.png");
+  background-repeat: no-repeat;
+  background-position: 40vw 0;
+  height: 400px;
+  overflow: hidden; }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .hand {
+      background-position: 33vw 0; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .hand {
+      background-position: 30vw 6vw; } }
+  @media screen and (max-width: 767px) {
+    .hand {
+      background: #f5f6f7;
+      text-align: center; } }
+  .hand h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #16a085;
+    letter-spacing: 3px; }
+  .hand p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #373737;
+    letter-spacing: 1px;
+    margin-top: 50px; }
+  .hand .btn {
+    background-color: #16a085;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 170px;
+    height: 50px;
+    line-height: 28px;
+    transition: .3s;
+    margin-top: 25px; }
+    .hand .btn:hover {
+      box-shadow: 0 1px 10px #16a085;
+      background-color: #17b196;
+      transform: scale(1.02); }
+
+.captures-carousel {
+  margin-top: 100px; }
+  .captures-carousel .container {
+    background-image: url("../images/phone.png");
+    background-repeat: no-repeat; }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .captures-carousel .container {
+        background-position: 400px 230px; } }
+    @media screen and (max-width: 767px) {
+      .captures-carousel .container {
+        background: none;
+        text-align: center; } }
+    .captures-carousel .container h4 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #16a085;
+      letter-spacing: 3px; }
+    .captures-carousel .container p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 28px;
+      color: #373737;
+      letter-spacing: 1px;
+      margin-top: 50px; }
+    .captures-carousel .container .btn {
+      background-color: #16a085;
+      border-radius: 3px;
+      font-size: 14px;
+      width: 170px;
+      height: 50px;
+      line-height: 28px;
+      transition: .3s;
+      margin-top: 25px;
+      margin-left: 5px; }
+      .captures-carousel .container .btn:hover {
+        box-shadow: 0 1px 10px #16a085;
+        background-color: #17b196;
+        transform: scale(1.02); }
+    .captures-carousel .container .carousel-inner {
+      height: 500px; }
+      .captures-carousel .container .carousel-inner .controls-1 {
+        margin-top: 100px;
+        font-size: 25px; }
+        .captures-carousel .container .carousel-inner .controls-1 a {
+          color: #373737;
+          margin: 5px;
+          text-decoration: none; }
+          .captures-carousel .container .carousel-inner .controls-1 a:hover {
+            color: #16a085; }
+          .captures-carousel .container .carousel-inner .controls-1 a:active {
+            color: black; }
+        @media screen and (max-width: 767px) {
+          .captures-carousel .container .carousel-inner .controls-1 {
+            font-size: 36px; } }
+    .captures-carousel .container ol {
+      margin: 0;
+      left: 5px;
+      bottom: 90px;
+      width: 78px; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .captures-carousel .container ol {
+          bottom: 110px; } }
+      @media screen and (max-width: 767px) {
+        .captures-carousel .container ol {
+          left: calc(50% - 75px);
+          width: 150px;
+          bottom: 110px; }
+          .captures-carousel .container ol .active {
+            background: #16a085; } }
+      .captures-carousel .container ol li {
+        background: #373737; }
+        @media screen and (max-width: 767px) {
+          .captures-carousel .container ol li {
+            width: 20px;
+            height: 20px; } }
+
+.our-community {
+  padding: 100px 0;
+  background-color: #f5f6f7;
+  color: #373737; }
+  .our-community .info {
+    height: 250px; }
+    .our-community .info img {
+      margin-top: 70px; }
+    .our-community .info h4 {
+      font-size: 16px;
+      font-weight: 700; }
+    .our-community .info p {
+      font-size: 14px;
+      font-weight: 500; }
+  .our-community .carousel .controls-2 {
+    margin-top: 100px;
+    font-size: 25px;
+    margin: 0 0 20px; }
+    .our-community .carousel .controls-2 a {
+      color: #373737;
+      margin: 5px;
+      text-decoration: none; }
+      .our-community .carousel .controls-2 a:hover {
+        color: #16a085; }
+      .our-community .carousel .controls-2 a:active {
+        color: black; }
+    @media screen and (max-width: 767px) {
+      .our-community .carousel .controls-2 {
+        font-size: 36px;
+        text-align: center; } }
+  .our-community .carousel .photo {
+    position: relative;
+    text-align: center; }
+    .our-community .carousel .photo i.fa {
+      color: white;
+      font-size: 10px;
+      transition: .3s; }
+      .our-community .carousel .photo i.fa:hover {
+        color: #16a085; }
+    .our-community .carousel .photo:hover img {
+      filter: brightness(70%); }
+    .our-community .carousel .photo:hover .overlay {
+      opacity: 1;
+      top: 33%; }
+    .our-community .carousel .photo:hover i.fa {
+      font-size: 50px;
+      text-shadow: 2px 2px 5px black; }
+  .our-community .carousel .overlay {
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    z-index: 10;
+    opacity: 0;
+    transition: .3s; }
+    .our-community .carousel .overlay a {
+      text-decoration: none; }
+  .our-community .carousel img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    filter: brightness(120%);
+    transition: .3s; }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .our-community .carousel img {
+        width: 100%; } }
+    @media screen and (max-width: 767px) {
+      .our-community .carousel img {
+        width: 100%; } }
+
+.newsletter {
+  background: url(../images/news-back.png) 0/cover no-repeat;
+  height: 100vh; }
+  .newsletter .jumbotron {
+    background: none;
+    color: #fff; }
+    .newsletter .jumbotron h2 {
+      font-weight: 700;
+      font-size: 30px;
+      letter-spacing: 7px;
+      margin-top: 40vh; }
+    .newsletter .jumbotron input {
+      width: 400px;
+      height: 70px; }
+      @media screen and (max-width: 767px) {
+        .newsletter .jumbotron input {
+          display: inline-block; } }
+      @media screen and (max-width: 500px) {
+        .newsletter .jumbotron input {
+          width: 300px; } }
+    .newsletter .jumbotron .btn {
+      width: 70px;
+      height: 70px;
+      background-color: #16a085;
+      font-size: 28px; }
+
+.download {
+  padding: 100px 0;
+  background-color: #f5f6f7; }
+  .download h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #16a085;
+    letter-spacing: 3px;
+    color: #373737; }
+  .download p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #373737;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-top: 10px;
+    text-transform: uppercase; }
+  .download .buttons {
+    display: flex;
+    justify-content: space-around; }
+    @media screen and (max-width: 767px) {
+      .download .buttons {
+        flex-direction: column; } }
+    .download .buttons span {
+      margin-left: 50px;
+      font-size: 28px; }
+    .download .buttons .btn {
+      background-color: #16a085;
+      border-radius: 3px;
+      font-size: 14px;
+      width: 170px;
+      height: 50px;
+      line-height: 28px;
+      transition: .3s;
+      margin-top: 25px;
+      font-weight: 700;
+      width: 200px;
+      background: linear-gradient(90deg, #16a085 0%, #16a085 78%, #0f9473 78%, #0f9473 100%);
+      /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16a085', endColorstr='#0F9473',GradientType=1 );
+      /* ie6-9 */ }
+      .download .buttons .btn:hover {
+        box-shadow: 0 1px 10px #16a085;
+        background-color: #17b196;
+        transform: scale(1.02); }
+      @media screen and (max-width: 767px) {
+        .download .buttons .btn {
+          margin: 10px auto; } }
+
+footer {
+  margin-top: 50px; }
+  footer ol {
+    list-style-type: none;
+    padding: 0; }
+    @media screen and (max-width: 767px) {
+      footer ol {
+        text-align: center; } }
+    footer ol li {
+      display: inline-block;
+      margin: 0 5px; }
+      footer ol li:not(:last-child):after {
+        content: " | ";
+        margin-left: 10px;
+        color: #16a085; }
+      footer ol li a {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #373737; }
+  footer p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #373737;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-weight: 700;
+    margin-top: 25px; }
+    @media screen and (max-width: 767px) {
+      footer p {
+        text-align: center; } }
+  footer img {
+    display: block;
+    margin: 0 auto;
+    height: 70px; }
+
+/*# sourceMappingURL=style.css.map */
